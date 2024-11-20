@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Meet Greater South｜亞灣新創大南方</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body{
+            box-sizing: border-box;
+            font-family: "Noto Sans TC","futura-pt",sans-serif ;
+            letter-spacing: 1.25px;
+            background-color: rgb(241 245 249)
+            
+        }
+        header{
+            width: 100%;
+            height: 68px;
+            background-color: #fff;
+            padding: 8px 0 8px 0;
+            position: fixed;
+            overflow: auto;
+            z-index: 3;
+            box-shadow:rgba(0, 0, 0, 0.1) 0 1px 3px 0 ,rgba(0, 0, 0, 0.1) 0 1px 2px -1px ;
+        }
+        nav{
+            width: 1200px;
+            height: 68px;
+            background-color: #fff;
+            margin: 0 auto 0;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        div ul li{
+            display: inline-block;
+        }
+        svg{
+            background-color: #fff;
+            width: 112px;
+            height: 68px;
+            display: block;
+        }
+        .logo{
+            float: left;
+        }
+        .btn ul{
+            float: right;
+            margin: 10px;
+            padding: right 5PX;
+            
+        }
+        .btn1{
+            display: block;
+            background: #EB007F;
+            color: #FFF;
+            width: 77px;
+            height: 27px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            text-align: center;
+            padding: 8px 16px 8px 16px;
+            transition: .4s;
+        }
+        .btn1:hover{
+            background: rgb(123, 203, 235); 
+        }
+        
+        .btn2{
+            display: block;
+            background: #ea580c;
+            color: #fde047;
+            width: 77px;
+            height: 27px;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            text-align: center;
+            padding: 8px 16px 8px 16px;
+            margin-left: 4PX;
+            transition: .4s;
+        }
+        .btn2:hover:hover{
+            background: rgb(123, 203, 235); 
+        }
+        
+        .Anchor ul{
+            float: right;
+            margin: 20px 0 0 0;
+        }
+        
+        li a{
+            color:#000 ;
+            text-decoration: none ;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .Anchor1{
+            float: left;
+            margin-right:10px ;
+        }
+        .Anchor1:hover{
+            color: #EB007F;
+        }
+        .Anchor2{
+            float: right;  
+        }
+        .Anchor2:hover{
+            color: #EB007F;
+        }
+        .Anchor-en{
+            padding-left: 16px;
+            border-left: 1px solid #9ca3af;
+            margin:0 16px 0 16px;
+            float: right;
+        }
+        .Anchor-en:hover{
+            color: #EB007F;
+        }
+        .banner{
+            width: 1536px;
+            height: 682.656px;
+            margin:auto;
+            padding-top: 86px;
+            background: url("/assets/image/img-banner.img.jpg") 0 76px no-repeat;
+            background-size: contain;  
+            box-shadow:1px 1px 20px #0000000c;
+        }
+        /* ------------新聞段---------------- */
+        .middle{
+            width: 1855px;
+            height: 232px;
+            padding: 64px 24px 64px 24px;
+            margin-top: -16px;
+            position: relative;
+        }
+        .schedule-1{
+            width: 1200px;
+            height: 232px;
+            margin: auto;
+            position: relative;
+        }
+        .svg-1{
+            width: 20px;
+            height: 243px;
+            position: absolute;
+            top: -144px;
+            bottom: 133px;
+            right: 1180px;
+            left: 0px;
+            background:#ffffff00 ;
+        }
+        .schedule-2{
+            width: 876px;
+            height: 232px;
+            margin: auto;
+        }
+        .topics{
+            width: 100%;
+            height: 36px;
+            padding-top: 6px ;
+            margin-bottom: 10px;
+            
+        }
+        .topics-en{
+            float: left;
+            font-size: 24px;
+            color: #EB007F;
+            margin-right: 15px;
+        }
+        .topics-ch{
+            float: left;
+            font-size: 18px; 
+            padding-top: 6px;  
+        }
+        .date-0701{
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+        .date-0701 h1{
+            font-size: 1rem;
+            float: left;
+            font-weight: 500;
+            color: #6b7280;
+            margin-right: 15px;
+            
+        }
+        .date-0701 a{
+            height: 24px;
+            font-size: 1rem;
+            float: left;
+            text-align: center;
+        }
+        .date-0611{
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+        .date-0611 h1{
+            font-size: 1rem;
+            float: left;
+            font-weight: 500;
+            color: #6b7280;
+            margin-right: 15px;
+        }
+        .date-0611 a{
+            height: 24px;
+            font-size: 1rem;
+            float: left;
+            text-align: center;
+        }
+        .date-0527{
+            width: 100%;
+            height: 24px;
+            line-height: 24px;
+            margin-bottom: 12px;
+        }
+        .date-0527 h1{
+            font-size: 1rem;
+            float: left;
+            font-weight: 500;
+            color: #6b7280;
+            margin-right: 15px;
+            
+        }
+        .date-0527 a{
+            height: 24px;
+            font-size: 1rem;
+            float: left;
+            text-align: center;
+        }
+        .schedule-content{
+            text-decoration: underline solid #000;
+            color: #000;
+        }
+        .scroll-BTN{
+            width: 100%;
+            height: 72px;
+            text-align: center;
+            
+        }
+        .svg-2{
+            width: 20px;
+            height: 20px;
+            padding: 8px;
+            border-radius: 50%;
+            margin: auto;
+            box-shadow: 0 5px 5px #00000015;
+            opacity: .3;
+        }
+        .svg-2:hover{
+            color: #fff;
+            background-color: #EB007F;
+        }
+        
+        .svg-3{
+            width: 20px;
+            height: 20px;
+            padding: 8px;
+            border-radius: 50%;
+            margin: auto;
+            box-shadow: 0 5px 5px #00000015;
+        }
+        .svg-3:hover{
+            color: #fff;
+            background-color: #EB007F;
+        }
+        /* -------------主描述--------------- */
+        .descript{
+            width: 100%;
+            height: 555px;
+            position: relative;
+            background-image: url(/assets/image/wave.png);
+            background-position: bottom center;
+            background-size: 44%;
+            background-repeat: repeat-x;
+            height: 55vh;
+        }
+        .descript-1{
+            padding: 64px 16px;
+            height: 186.5px;
+            width: 1504px;
+            margin: 0 auto;
+        }
+        .descript-1 .bird{
+            top: 0;
+            right: 30%;
+            position: absolute;
+        }
+        .bubble{
+            background-image: url(/assets/image/bubble.png);
+            background-position: top center;
+            background-repeat: no-repeat;
+            height: 555px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        .descript-text{
+            width: 56rem;
+            margin: 0 auto;
+        }
+        .descript-text-1{
+            font-size: 1.125rem;
+            line-height: 1.625;
+            text-align: center;
+            padding-top: 2.5rem;
+            padding-bottom: 16px;
+            margin: 0;
+            color: rgb(31 41 55 );
+        }
+        .descript-text-2{
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-align: center;
+            margin: 0;
+            line-height: 1.625;
+        }
+        .text-pink{
+            color: rgb(235, 0, 125);
+        }
+        /* -------------滾動視窗(靜態)--------------- */
+        .slidebg{
+            background-image: url(/assets/image/blue.png);
+            background-position: top center;
+            background-size: 50%;
+            background-repeat: repeat-x;
+            height: 73vh;
+        }
+        .picture{
+            padding: 40px 16px;
+            width: 992px;
+            height: 518.703px;
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+        }
+        .picture-1{
+            width: 100%;
+        }
+        .my-style{
+            font-size: 48px;
+            color: #ffffff;
+        }
+        .btn3{
+            width: 24px;
+            height: 48px;
+            padding: 16px;
+            background-color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            text-align: center;
+            left: 0;
+            top: 50%;
+            margin-left: 26px;
+            transform: translateY(-50%);
+            border: 0px solid #00000000;
+            opacity: .7;
+            transition: .3s;
+        }
+        .btn3:hover{
+            opacity: 1;
+        }
+        .btn4{
+            width: 24px;
+            height: 48px;
+            padding: 16px;
+            background-color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            text-align: center;
+            right: 0;
+            top: 50%;
+            margin-right: 26px;
+            transform: translateY(-50%);
+            opacity: .7;
+            transition: .3s;
+        }
+        .btn4:hover{
+            opacity: 1;
+        }
+        /* -------------成果數據--------------- */
+        .media{
+            max-width: 1903px;
+            background-image: url(/assets/image/bg.gif) ;
+            background-size: contain;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding: 40px 0;
+            position: relative;
+            
+        }
+        .data{
+            max-width: 72rem;
+            text-align: center;
+            margin: 0 auto;
+            font-family: "Roboto", "Noto Sans TC", ui-sans-serif, system-ui;
+            padding: 0 16px;
+            background-color: #ffffff00;
+        }
+        .data .text{
+            width: 418.562px;
+            float: left;
+            margin-bottom: 20px;
+            
+        }
+        .data .text .text-1{
+            font-size: 24px;
+            letter-spacing: 1.25px;
+            line-height: 36px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #EB007F;
+            display: block;
+            text-align: left;
+            padding-left: 16px;
+            margin-bottom: 8px;
+        }
+        .data .text .text-2{
+            font-size: 40px;
+            font-weight: 700;
+            letter-spacing: 1.25px;
+            line-height: 60px;
+            color: #FFF;
+            background-color: #EB007F;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+        }
+        .data-box{
+            width: 1120px;
+            height: 336px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            clear: both;
+            columns: 3;
+        }
+        .data-box .box{
+            width: 352px;
+            height: 150px;
+            text-align: left;
+            border-top: 2px solid #000;
+        }
+        .data-box span{
+            width: auto;
+            height: auto;
+            display: inline;
+            line-height: 30px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .data-box h2{
+            font-family: "Roboto";
+            font-size: 80px;
+            letter-spacing: -2px;
+            line-height: 120px;
+            text-align: center;
+            text-align: left;
+        }
+        .video-box{
+            max-width: 1200px;
+            min-height: 524.984px;
+            padding: 40px;
+            margin: auto;
+            text-align: center;
+        }
+        .video-box .video{
+            width: 933.328px;
+            height: 524.984px;
+            border-radius: 0.5rem;
+        }
+        /* -------------地圖資訊--------------- */
+        .index-map{
+            max-width: 100%;
+            height: 510.172px;
+            padding-bottom: 32px;
+            background-color: rgb(241 245 249);
+            margin-bottom: 32px;
+            ;
+        }
+        .index-map-1{
+            max-width: 1200px;
+            min-height: 353.328px;
+            padding: 0 16px;
+            margin: auto;
+            flex-direction: row;
+            position: relative;
+        }
+        .index-box{
+            width: 225.219px;
+            height: 478.172px;
+        }
+        .index-1{
+            width: 225.219px;
+            height: 208.781px;
+        }
+        .index-1 h2{
+            width: 189.219px;
+            height: 208.761px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            top: 0;
+            display: block;
+            float: left;
+        }
+        .index-1 span{
+            font-size: 1.85rem;
+            display: inline;
+            font-weight: 700;
+            line-height: 44.4px;
+            margin: 8px 0;
+            border-bottom: 1px solid #000;
+        }
+        .calendarBTN{
+            width: 36px;
+            height: 208.75px;
+            position: relative;
+            float: left;
+        }
+        .calendarBTN svg{
+            width:auto;
+            height:auto;
+            position: absolute;
+            
+            right: 0;
+            text-align: center;
+            transform: translateX(-50%);
+            background-color: rgb(255, 255, 255);
+            bottom: 0;
+            color: #000000;
+        }
+        .index-box-2{
+            height: 116px;
+            width: 185.328px;
+            margin: 12px 0;
+            padding: 16px;
+            background-color: #f9fafb;
+            font-size: 16px;
+            letter-spacing: 1.25px;
+            line-height: 24px;
+            border-radius: 12px;
+        }
+        .Visit-time{
+            font-size: 24px;
+            line-height: 36px;
+            color: #EB007F;
+        }
+        .time-limit{
+            font-size: 14px;
+            line-height: 21px;
+            color: #6b7280;
+        }
+        .index-box-3{
+            height: 113.391px;
+            width: 225.219px;
+            margin-top: 16px;
+        }
+        .index-2{
+            font-size: 28.6px;
+            font-weight: 700;
+            letter-spacing: 1.25px;
+            line-height: 44.4px;
+            margin: 8px 0;
+            display: inline;
+            border-bottom: 1px solid #222222;
+        }
+        .index-3{
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 1.25px;
+            line-height: 22.5px;
+            display: block;
+        }
+        .google-map-link{
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 1.25px;
+            line-height: 21px;
+            background-color: #14c8eb;
+            color: #fff;
+            padding: 2px 8px 2px 16px;
+            display: inline;
+            transition: 0.15s;
+        }
+        .google-map-link:hover{
+            color: #EB007F;
+            transform: translateX(5px);
+        }
+        .map{
+           height: 533.328px;
+           width: 902.781px;
+           min-width: auto;
+           min-height: auto; 
+           position: absolute;
+           right: 0;
+           top: 0;
+           margin: bottom 32px;
+           overflow:hidden;
+        }
+        .map .map-1{
+            height: 533.328px;
+            width: 640px;
+            overflow: clip;
+        }
+        /* -------------footer---------------  */
+        footer{
+            width: 100%;
+            background-color: rgb(31 41 55);
+            display: block;
+            
+        }
+        footer a{
+            color: #9ca3af;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        footer span{
+            color: #9ca3af;
+        }
+        .box-text{
+            font-size: 14px;
+            line-height: 16px;
+        }
+        .container{
+            max-width: 1168px;
+            margin: 0 auto;
+            padding: 0 1rem 0 1rem;
+        }
+        .footer-box{
+            padding: 2rem 0;
+           
+        }
+        .footer-span-1{
+            height: 24px;
+            width: 100%;
+            margin: auto;
+            color:#9ca3af;
+        }
+        .footer-media-box1{
+            height: 147px;
+            width: 165.328px;
+            display: block;
+            float: left;
+            margin-right: 16px;
+        }
+        .footer-media-box1 .box1 li{
+            height: 24px;
+            width: 165.328px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+            display: list-item;
+        }
+        
+        .footer-media-box2{
+            height: 147px;
+            width: 165.328px;
+            display: block;
+            float: left;
+            margin-right: 16px;
+        }
+        .footer-media-box2 .box2 li{
+            height: 24px;
+            width: 165.328px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+            display: list-item;
+        }
+        .footer-media-box3{
+            height: 251px;
+            width: 264px;
+            display: block;
+            float: left;
+            margin-right: 16px;
+        }
+        .li-1{
+            width: 264px;
+            height: 24px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+        }
+        .li-2{
+            width: 264px;
+            height: 45px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+        }
+        .li-2 .years-1 a{
+            font-size: 14px;
+        }
+        .li-2 .years-1 li{
+            font-size: 14px;
+            color: #64748b;
+        }
+        .li-3{
+            height: 84px;
+            width: 264px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0; 
+        }
+        .li-3 .years-2{
+            height: 42px;
+            width: 264px;
+        }
+        .li-3 .years-2 li{
+            height: 21px;
+            width: 56px;
+            font-size: 14px;
+            color: #64748b;
+            text-align: left;
+            line-height: 21px;
+        }
+        .li-3 .years-2 a{
+            font-size: 14px;
+            color: #64748b;
+            text-align: left;
+            line-height: 21px;
+        }
+        .li-4{
+            width: 264px;
+            height: 24px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+            margin: 0 0 20px 0;
+        }
+        .footer-media-box4{
+            height: 147px;
+            width: 165.328px;
+            display: block;
+            float: left;
+            margin-right: 16px;
+        }
+        .footer-media-box4 .box4 li{
+            height: 24px;
+            width: 165.328px;
+            border-bottom: 1px dashed #64748b;
+            padding: 8px 0;
+            display: list-item;
+        }
+        .socialmedia-box{
+            height: 147px;
+            width: 165.328px;
+            display: block;
+            float: left;
+            margin-right: 16px;
+            
+        } 
+        .socialmedia-text{
+            height: 56px;
+            width: 280px;
+            padding-bottom: 8px;
+        }
+        .socialmedia-box .text-1{
+            font-size: 18px;
+            line-height: 27px;
+            color: #64748b;
+        }
+        .socialmedia-box .text-2{
+            font-size: 14px;
+            line-height: 24px;
+            color: #64748b;
+        }
+        .icon-box{
+            height: 76px;
+            width: 280px;
+            padding: 16px 0;
+            display: flex;
+        }
+        .social_icon{
+            height: 30px;
+            width: 58px;
+            display: inline-block;
+            
+            
+        }
+        .social_icon svg{
+            width: auto;
+            height: auto;
+            background: #1f2937;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .notice{
+            text-align: left;
+            clear: both;
+            padding: 12px 0;
+            
+        }
+        .right{
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0 0 16px 0;
+            display: block;
+        }
+        .new{
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0 0 16px 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="https://meetgreatersouth.tw/" class="logo">
+            <svg width="132" height="68" viewBox="0 0 137 68" fill="none" xmlns="http://www.w3.org/2000/svg"  ><g clip-path="url(#clip0_102_2563)"><path d="M71.6676 14.7739V21.5581H75.452V26.5652H71.6676V32.8861C71.6676 33.6477 71.7379 34.149 71.8849 34.3965C72.1087 34.7773 72.505 34.9677 73.0676 34.9677C73.5726 34.9677 74.7936 34.5488 75.7013 34.2569V39.245C74.0009 39.6131 72.4155 39.7972 70.9388 39.7972C69.2256 39.7972 67.9663 39.5814 67.1544 39.1435C66.3425 38.7056 65.7416 38.0456 65.3581 37.1571C64.9681 36.2687 64.7763 34.8281 64.7763 32.8353V26.5652H62.2449V21.5581H64.7763V18.2834L71.6676 14.7739Z" fill="#E4007F"  ></path><path d="M17.8865 14.7739L14.0318 29.9986L10.1514 14.7739H0.0894775V39.7972H6.35423V20.714L11.1807 39.7972H16.8509L21.6773 20.714V39.7972H27.9485V14.7739H17.8865Z" fill="#E4007F"  ></path><path d="M44.5308 24.23H34.1875C34.2834 25.0804 34.5072 25.7151 34.8588 26.1339C35.3574 26.7305 36.0094 27.0351 36.8085 27.0351C37.3135 27.0351 37.7994 26.9081 38.2532 26.6416C38.5345 26.4766 38.835 26.1847 39.1546 25.7658L44.2367 26.2481C43.4568 27.638 42.5235 28.6343 41.424 29.2372C40.3244 29.8401 38.7519 30.1447 36.6998 30.1447C34.9163 30.1447 33.5163 29.8845 32.4935 29.3705C31.4707 28.8564 30.6269 28.0314 29.9492 26.9081C29.278 25.7849 28.9392 24.4585 28.9392 22.9417C28.9392 20.7777 29.6104 19.0261 30.9593 17.6871C32.3081 16.348 34.1684 15.6816 36.54 15.6816C38.4642 15.6816 39.9856 15.9799 41.1043 16.5828C42.2167 17.1857 43.0669 18.0551 43.6486 19.1911C44.2303 20.3271 44.5244 21.8121 44.5244 23.6398V24.2364L44.5308 24.23ZM39.2825 21.6915C39.1802 20.6634 38.9117 19.9336 38.477 19.4894C38.0423 19.0451 37.4669 18.823 36.7574 18.823C35.9391 18.823 35.2807 19.1594 34.7948 19.8257C34.4816 20.2446 34.2834 20.8665 34.2003 21.6915H39.2825Z" fill="#E4007F"  ></path><path d="M61.3306 24.23H50.9874C51.0833 25.0804 51.307 25.7151 51.6586 26.1339C52.1572 26.7305 52.8093 27.0351 53.6084 27.0351C54.1134 27.0351 54.5992 26.9081 55.0531 26.6416C55.3344 26.4766 55.6284 26.1847 55.9544 25.7658L61.0366 26.2481C60.2567 27.638 59.317 28.6343 58.2238 29.2372C57.1243 29.8401 55.5517 30.1447 53.4933 30.1447C51.7098 30.1447 50.3098 29.8845 49.287 29.3705C48.2641 28.8564 47.4203 28.0314 46.7427 26.9081C46.0715 25.7849 45.7327 24.4585 45.7327 22.9417C45.7327 20.7777 46.4039 19.0261 47.7527 17.6871C49.1016 16.348 50.9618 15.6816 53.3335 15.6816C55.2577 15.6816 56.7791 15.9799 57.8978 16.5828C59.0165 17.1857 59.8603 18.0551 60.4421 19.1911C61.0238 20.3271 61.3178 21.8121 61.3178 23.6398V24.2364L61.3306 24.23ZM56.0823 21.6915C55.98 20.6634 55.7115 19.9336 55.2768 19.4894C54.8421 19.0451 54.2732 18.823 53.5572 18.823C52.739 18.823 52.0805 19.1594 51.5947 19.8257C51.2814 20.2446 51.0833 20.8665 51.0002 21.6915H56.0823Z" fill="#E4007F"  ></path><path d="M45.0806 39.7972C35.7666 39.7972 30.0772 33.9269 29.8406 33.6794C29.3292 33.1464 29.3868 32.334 29.9685 31.8644C30.5438 31.3948 31.426 31.4456 31.9374 31.9787C32.0205 32.0675 37.0963 37.2207 45.087 37.2207C53.0778 37.2207 58.3005 32.0167 58.3517 31.966C58.8695 31.4392 59.7453 31.3948 60.3206 31.8708C60.8895 32.3467 60.9407 33.1591 60.4293 33.6858C60.1864 33.9333 54.3947 39.7972 45.087 39.7972H45.0806Z" fill="#E4007F"  ></path><path d="M134.545 0H83.7687C82.4135 0 81.3139 1.09155 81.3139 2.43696V31.1347C80.5532 33.3305 78.7505 38.7184 79.2172 39.1817C79.7286 39.6894 86.1148 37.519 87.828 36.9288H134.545C135.9 36.9288 137 35.8372 137 34.4918V2.43696C137 1.09155 135.9 0 134.545 0Z" fill="#00A0E9"  ></path><path d="M92.9678 14.444C92.9806 15.1928 92.7824 15.8275 92.3797 16.3605C92.1176 16.7223 91.7404 16.9761 91.261 17.1221C91.0053 17.2046 90.6984 17.2427 90.3532 17.2427C89.714 17.2427 89.1834 17.084 88.7679 16.773C88.4163 16.5192 88.1414 16.1638 87.9368 15.7259C87.7323 15.2817 87.6108 14.7803 87.5789 14.2092L89.1323 14.0949C89.2026 14.7169 89.3688 15.1738 89.6309 15.453C89.8291 15.6625 90.0528 15.764 90.3021 15.7513C90.6601 15.7386 90.9414 15.5673 91.1523 15.2309C91.261 15.0659 91.3185 14.8311 91.3185 14.5201C91.3185 14.0759 91.114 13.6317 90.7048 13.1938C90.3852 12.8891 89.8994 12.4386 89.2601 11.8293C88.7231 11.3089 88.3396 10.8457 88.1158 10.4332C87.8729 9.96988 87.7515 9.46852 87.7515 8.92909C87.7515 7.95177 88.0839 7.21561 88.7423 6.70791C89.1514 6.40329 89.6565 6.25098 90.2574 6.25098C90.8583 6.25098 91.3377 6.3779 91.7468 6.6381C92.0665 6.84118 92.3286 7.12041 92.5267 7.4758C92.7249 7.83754 92.8464 8.25004 92.8847 8.71967L91.3249 8.9989C91.2802 8.56101 91.1523 8.21831 90.9478 7.97081C90.8007 7.79311 90.5834 7.70427 90.3021 7.70427C90.0017 7.70427 89.7779 7.83754 89.6181 8.09773C89.4902 8.30716 89.4263 8.5737 89.4263 8.88467C89.4263 9.37333 89.6373 9.87468 90.0656 10.3824C90.2254 10.5791 90.4683 10.8076 90.7879 11.0678C91.1651 11.3787 91.4144 11.6009 91.5359 11.7278C91.9386 12.1276 92.2455 12.5211 92.4692 12.9082C92.5715 13.0922 92.6546 13.2572 92.7185 13.4159C92.8719 13.7967 92.955 14.1394 92.9614 14.444H92.9678Z" fill="white"></path><path d="M95.8188 8.01526H94.0864V6.39062H99.1749V8.01526H97.4489V17.1094H95.8188V8.01526Z" fill="white"></path><path d="M101.093 14.6471L100.696 17.1094H99.0024L100.837 6.39062H103.081L104.89 17.1094H103.177L102.793 14.6471H101.093ZM101.949 8.84662L101.349 13.0732H102.557L101.956 8.84662H101.949Z" fill="white"></path><path d="M108.828 6.39062C109.736 6.39062 110.4 6.63813 110.829 7.13314C111.199 7.56468 111.391 8.17392 111.391 8.94816V10.503C111.391 11.2645 111.104 11.9055 110.522 12.4259L111.73 17.1094H109.966L108.981 13.0732H107.895V17.1094H106.264V6.39062H108.834H108.828ZM109.8 8.97355C109.8 8.35161 109.486 8.04065 108.866 8.04065H107.882V11.474H108.866C109.122 11.474 109.346 11.3851 109.525 11.2011C109.704 11.017 109.793 10.8013 109.793 10.5411V8.97355H109.8Z" fill="white"></path><path d="M114.319 8.01526H112.587V6.39062H117.675V8.01526H115.949V17.1094H114.319V8.01526Z" fill="white"></path><path d="M121.549 17.23C120.833 17.23 120.219 16.9825 119.721 16.4875C119.222 15.9925 118.973 15.3896 118.973 14.6852V6.39062H120.565V14.6661C120.565 14.92 120.654 15.1421 120.84 15.3198C121.025 15.4975 121.242 15.5863 121.504 15.5863C121.766 15.5863 121.984 15.4975 122.163 15.3198C122.342 15.1421 122.431 14.92 122.431 14.6661V6.39062H124.132V14.6852C124.132 15.4023 123.876 16.0115 123.371 16.5002C122.866 16.9889 122.259 17.2364 121.543 17.2364L121.549 17.23Z" fill="white"></path><path d="M128.153 6.39062C128.946 6.39062 129.578 6.63813 130.051 7.13314C130.486 7.6091 130.703 8.212 130.703 8.94816V10.503C130.703 11.2074 130.454 11.8167 129.956 12.318C129.457 12.8194 128.856 13.0732 128.153 13.0732H127.213V17.1094H125.583V6.39062H128.153ZM129.125 8.97355C129.125 8.69431 129.041 8.46585 128.869 8.2945C128.696 8.12315 128.472 8.04065 128.191 8.04065H127.207V11.474H128.191C128.447 11.474 128.671 11.3851 128.85 11.2011C129.029 11.017 129.118 10.8013 129.118 10.5411V8.97355H129.125Z" fill="white"></path><path d="M89.145 30.6715H87.5789V20.3652H92.0345V21.9264H89.145V24.7378H91.2546V26.299H89.145V30.6715Z" fill="white"></path><path d="M93.1147 30.6715V20.3652H97.5704V21.9264H94.6809V24.7378H96.7905V26.299H94.6809V29.1104H97.5704V30.6715H93.1147Z" fill="white"  ></path><path d="M103.816 28.1076C103.829 28.8247 103.637 29.4403 103.254 29.948C102.998 30.2907 102.64 30.5382 102.18 30.6779C101.93 30.754 101.643 30.7921 101.31 30.7921C100.697 30.7921 100.192 30.6398 99.7888 30.3415C99.45 30.094 99.1879 29.7576 98.9897 29.3324C98.7916 28.9073 98.6765 28.4186 98.6445 27.8728L100.134 27.7649C100.198 28.3678 100.358 28.7994 100.613 29.0723C100.799 29.2753 101.016 29.3705 101.259 29.3642C101.604 29.3515 101.873 29.1865 102.077 28.8628C102.18 28.7042 102.237 28.4757 102.237 28.1774C102.237 27.7522 102.039 27.327 101.649 26.9018C101.342 26.6099 100.876 26.172 100.255 25.5945C99.7377 25.0932 99.3669 24.6489 99.1559 24.2555C98.9258 23.8112 98.8107 23.3289 98.8107 22.8085C98.8107 21.8693 99.1304 21.1585 99.7632 20.6762C100.153 20.3842 100.639 20.2383 101.221 20.2383C101.802 20.2383 102.256 20.3589 102.653 20.6064C102.96 20.7968 103.209 21.0696 103.401 21.4123C103.592 21.755 103.707 22.1548 103.746 22.6054L102.25 22.8783C102.205 22.4595 102.084 22.1295 101.886 21.8947C101.745 21.7233 101.534 21.6408 101.266 21.6408C100.978 21.6408 100.76 21.7677 100.613 22.0216C100.492 22.2247 100.434 22.4785 100.434 22.7768C100.434 23.2464 100.639 23.7287 101.048 24.2174C101.202 24.4014 101.432 24.6235 101.745 24.8774C102.109 25.1757 102.352 25.3914 102.467 25.512C102.851 25.8928 103.151 26.2736 103.362 26.648C103.465 26.8257 103.541 26.9843 103.605 27.1303C103.752 27.4984 103.829 27.8284 103.835 28.114L103.816 28.1076Z" fill="white"></path><path d="M106.559 21.9328H104.896V20.3716H109.78V21.9328H108.125V30.6715H106.559V21.9328Z" fill="white"  ></path><path d="M112.6 30.6715H111.033V20.3716H112.6V30.6715Z" fill="white"  ></path><path d="M115.764 30.6715L113.91 20.3716H115.553L116.857 28.3996L118.167 20.3716H119.81L117.924 30.6715H115.77H115.764Z" fill="white"  ></path><path d="M121.479 28.3044L121.095 30.6715H119.465L121.229 20.3716H123.384L125.123 30.6715H123.48L123.115 28.3044H121.479ZM122.303 22.7324L121.722 26.794H122.879L122.297 22.7324H122.303Z" fill="white"></path><path d="M130.703 30.6715H126.439V20.3716H128.006V29.1231H130.703V30.6715Z" fill="white"></path><path d="M4.11045 55.701V54.9648C3.44562 55.4535 2.78718 55.9231 2.08399 56.3166H10.0748V62.2186H3.50315C3.46479 62.4089 3.44562 62.612 3.40726 62.8024H10.5286V67.8223H8.5597V67.3146H5.05655V67.8984H3.18352V64.0082C2.91503 65.195 2.51869 66.3373 1.96892 67.3019C1.53423 67.0227 0.549764 66.6038 0 66.4388C1.49587 64.0526 1.64929 60.6828 1.64929 58.487V56.5894L1.2146 56.8179C1.00364 56.2912 0.421912 55.1615 0.0383557 54.6729C2.23741 53.7527 4.44926 52.2105 5.66385 50.4019L7.72866 51.2078C7.6136 51.3792 7.49853 51.5251 7.38986 51.6775C8.78984 52.4834 10.3624 53.41 11.2382 54.0256L10.0811 55.904C9.56974 55.4915 8.82819 55.0029 8.01633 54.4761V55.701H4.11684H4.11045ZM8.02912 60.6828V59.9149H3.68854C3.68854 60.1624 3.66936 60.4226 3.65018 60.6828H8.02912ZM3.72689 57.865V58.6012H8.02912V57.865H3.72689ZM7.87569 54.3873C7.2684 54.0129 6.64192 53.6194 6.07937 53.2577C5.68303 53.6321 5.26751 54.0319 4.8456 54.3873H7.87569ZM5.05016 64.3382V65.6709H8.55331V64.3382H5.05016ZM13.7058 62.8532H11.5834V52.3628H13.7058V62.8532ZM17.1705 50.478V65.2965C17.1705 66.5023 16.9404 67.0988 16.2436 67.4606C15.5788 67.835 14.4984 67.9111 12.9834 67.9111C12.8875 67.2892 12.6254 66.2929 12.3186 65.6709C13.2838 65.69 14.2683 65.69 14.5751 65.69C14.882 65.69 15.0098 65.5948 15.0098 65.2775V50.478H17.1705Z" fill="#E4007F"  ></path><path d="M23.3585 62.6945C22.8855 64.0462 22.1056 65.5884 21.4472 66.5467C21.1083 66.2674 20.386 65.7724 19.9705 65.5313C20.6161 64.6491 21.2426 63.3672 21.6389 62.2058L23.3649 62.6945H23.3585ZM26.0115 61.6029V67.8476H23.8316V61.6029H20.3093V59.7245H23.8316V58.2775H20.1942V56.4371H22.0289C21.933 55.8723 21.7092 55.0663 21.4791 54.4825L23.0325 54.108H20.4755V52.2867H23.7165C23.5439 51.779 23.3394 51.2522 23.1476 50.8016L25.4042 50.2559C25.6855 50.8778 26.0307 51.6457 26.2544 52.2867H28.9649V54.108H26.5996L28.1338 54.4063C27.8525 55.1234 27.5649 55.8532 27.2836 56.4371H29.2525V58.2775H26.0115V59.7245H28.9457V61.6029H26.0115ZM23.2818 54.1017C23.5631 54.7236 23.8124 55.5296 23.9083 56.0563L22.5467 56.4308H25.2763C25.5576 55.7517 25.9028 54.7934 26.0882 54.1017H23.2818ZM37.6972 58.671H35.9328V67.9048H33.7337V58.671H31.9694V58.8994C31.9694 61.6664 31.7201 65.5376 30.1155 67.9428C29.7384 67.5494 28.8434 66.8322 28.3703 66.6101C28.7283 66.0644 29.016 65.4424 29.2206 64.7888L27.8781 65.6138C27.5777 64.8586 26.932 63.6591 26.4014 62.796L27.8781 62.0091C28.3895 62.7643 28.9776 63.7607 29.2973 64.4714C29.8279 62.6691 29.8854 60.6383 29.8854 58.9058V52.2105C31.9502 51.8361 34.2452 51.2522 35.626 50.6112L37.352 52.2486C35.7986 52.8705 33.8296 53.3211 31.9694 53.6574V56.6084H37.6908V58.6773L37.6972 58.671Z" fill="#E4007F"></path><path d="M43.898 55.701V54.9648C43.2332 55.4535 42.5748 55.9231 41.8716 56.3166H49.8623V62.2186H43.2907C43.2524 62.4089 43.2332 62.612 43.1949 62.8024H50.3162V67.8223H48.3473V67.3146H44.8442V67.8984H42.9711V64.0082C42.7026 65.195 42.3063 66.3373 41.7565 67.3019C41.3218 67.0227 40.3374 66.6038 39.7876 66.4388C41.2835 64.0526 41.4369 60.6828 41.4369 58.487V56.5894L41.0022 56.8179C40.7912 56.2912 40.2095 55.1615 39.826 54.6729C42.025 53.7527 44.2369 52.2105 45.4514 50.4019L47.5163 51.2078C47.4012 51.3792 47.2861 51.5251 47.1775 51.6775C48.5774 52.4834 50.15 53.41 51.0258 54.0256L49.8687 55.904C49.3573 55.4915 48.6158 55.0029 47.8039 54.4761V55.701H43.9044H43.898ZM47.8167 60.6828V59.9149H43.4761C43.4761 60.1624 43.457 60.4226 43.4378 60.6828H47.8167ZM43.5145 57.865V58.6012H47.8167V57.865H43.5145ZM47.6633 54.3873C47.056 54.0129 46.4295 53.6194 45.867 53.2577C45.4706 53.6321 45.0551 54.0319 44.6332 54.3873H47.6633ZM44.8378 64.3382V65.6709H48.3409V64.3382H44.8378ZM53.4934 62.8532H51.371V52.3628H53.4934V62.8532ZM56.9581 50.478V65.2965C56.9581 66.5023 56.728 67.0988 56.0312 67.4606C55.3664 67.835 54.286 67.9111 52.771 67.9111C52.6751 67.2892 52.413 66.2929 52.1062 65.6709C53.0714 65.69 54.0559 65.69 54.3627 65.69C54.6696 65.69 54.7974 65.5948 54.7974 65.2775V50.478H56.9581Z" fill="#E4007F"  ></path><path d="M67.0839 65.049C65.7926 66.1215 63.5233 67.0988 61.5735 67.5494C61.2922 67.0798 60.7041 66.3436 60.2502 65.9311C62.1425 65.6646 64.3415 65.03 65.4986 64.3319L67.0903 65.049H67.0839ZM77.1267 61.8695V63.7099H69.7752V68H67.5378V63.7099H60.3206V61.8695H67.5378V61.0445H62.0849V59.4262H67.5378V58.5822H61.1324V56.8877H64.6164C64.4438 56.4562 64.1625 55.9294 63.9132 55.5169L65.1853 55.2377H60.3525V53.4861H62.9287C62.6475 52.769 62.1552 51.8678 61.7142 51.1571L63.6447 50.5161C64.2137 51.303 64.8401 52.4327 65.0831 53.1498L64.1753 53.4861H65.9205V50.4209H68.0045V53.4861H69.4236V50.4209H71.546V53.4861H73.2336L72.5496 53.2767C72.9843 52.5215 73.4957 51.3792 73.7642 50.5669L76.1295 51.1126C75.5989 51.9757 75.0875 52.8261 74.6144 53.4798H77.0564V55.2314H72.0574L73.8409 55.6819C73.4254 56.1325 73.0291 56.545 72.6839 56.8877H76.3404V58.5822H69.7688V59.4262H75.4519V61.0445H69.7688V61.8695H77.1203H77.1267ZM66.1954 55.2314C66.4958 55.701 66.8027 56.2468 66.9561 56.6402L65.9333 56.8877H71.1049L70.4209 56.6783C70.7213 56.2468 71.1241 55.6819 71.3862 55.2314H66.1954ZM72.1085 64.2176C73.6428 64.7825 75.8802 65.7217 77.0884 66.3246L75.4966 67.5494C74.3971 66.9275 72.1789 65.9311 70.5935 65.2711L72.1085 64.2176Z" fill="#E4007F"></path><path d="M93.2106 60.118C93.0188 60.4162 92.8718 60.7018 92.6992 60.943H96.8671V62.5803H85.1623C85.1431 62.8786 85.1047 63.1642 85.0472 63.4244H88.5695C88.5695 63.4244 88.5504 63.8559 88.512 64.1034C88.3394 65.9629 88.1348 66.8894 87.7385 67.2829C87.4189 67.6192 87.0161 67.7525 86.5431 67.7906C86.1084 67.8286 85.3668 67.8477 84.555 67.8096C84.5358 67.3019 84.344 66.6419 84.1203 66.2104C84.7084 66.2865 85.2965 66.2865 85.5394 66.2865C85.7824 66.2865 85.9358 66.2675 86.07 66.1342C86.1851 65.9819 86.3193 65.6455 86.4088 64.9855H84.6253C84.0755 66.3563 82.976 67.3336 80.745 67.9936C80.5532 67.5431 80.0993 66.8831 79.7222 66.5277C81.1413 66.1723 81.9979 65.6646 82.471 64.9855H80.5021V63.4244H83.1166C83.1742 63.1642 83.2125 62.8786 83.2317 62.5803H80.2208V60.943H84.6317C84.5166 60.6447 84.3504 60.321 84.1778 60.0799L85.597 59.8895H82.0938V56.1071H95.09V59.8895H91.7211L93.217 60.118H93.2106ZM96.9822 51.4871V53.1054H89.6499V53.8606H95.6334V55.4027H81.5952V53.8606H87.3549V53.1054H80.2528V51.4871H87.3549V50.4336H89.6499V51.4871H96.9822ZM84.1778 58.4806H92.8909V57.5414H84.1778V58.4806ZM86.396 59.8895C86.6773 60.2068 86.9075 60.6447 87.0034 60.943H90.3914C90.5449 60.5876 90.6919 60.1878 90.7878 59.8895H86.396ZM89.3303 63.1832H96.0936V67.9429H94.0096V67.5113H91.3184V67.9619H89.3303V63.1832ZM91.3184 64.7063V65.9882H94.0096V64.7063H91.3184Z" fill="#E4007F"></path><path d="M117.138 63.9765H110.662V68H108.335V63.9765H99.8141V61.8314H102.806V56.9067H108.335V54.6475H104.283C103.509 55.9802 102.595 57.186 101.706 58.0681C101.272 57.6937 100.306 56.9385 99.7566 56.6212C101.463 55.1933 102.921 52.7817 103.733 50.3574L106.028 50.9413C105.855 51.468 105.651 51.9757 105.401 52.4834H116.102V54.6475H110.669V56.9067H115.668V58.9756H110.669V61.8314H117.144V63.9765H117.138ZM108.329 61.8314V58.9756H105.05V61.8314H108.329Z" fill="#E4007F"></path><path d="M129.418 62.942V63.8813H135.728V65.7217H129.418V67.981H127.181V65.7217H120.891V63.8813H127.181V62.942H119.791V61.0064H127.181V56.7545H120.264V54.9331H136.463V56.7545H129.418V61.0064H136.994V62.942H129.418ZM123.927 53.4481H119.912V51.4934H123.927V50.4399H126.126V51.4934H128.057V53.4481H126.126V54.5015H123.927V53.4481ZM124.701 57.0971V57.9031H126.446V59.7816H124.701V60.6828H122.617V59.7816H120.251V57.9031H122.617V57.0971H124.701ZM130.479 53.4481H128.664V51.4934H130.479V50.4399H132.679V51.4934H136.789V53.4481H132.679V54.5015H130.479V53.4481ZM131.995 60.6891V59.6928H130.16V57.8143H131.995V57.0971H134.079V57.8143H136.354V59.6928H134.079V60.6891H131.995Z" fill="#E4007F"></path></g><defs><clipPath id="clip0_102_2563"><rect width="137" height="68" fill="white"></rect></clipPath></defs></svg></a>
+            <div class="btn">
+                <ul>
+                    <li><a href="" class="btn1">參展報名</a></li>
+                    <li><a href="" class="btn2">觀展索票</a></li>
+                </ul>
+            </div>
+            <div class="Anchor">
+                <ul>
+                <li><a href="" class="Anchor1">2024 Meet Greater South</a></li>
+                <li><a href="" class="Anchor2">2024參展方案</a></li>
+                <li><a href="" class="Anchor-en">EN</a></li>
+                </ul>
+            </div>    
+        </nav>
+    </header>
+    <div class="banner"></div>
+    <div class="middle">
+        <div class="schedule-1">
+            <svg class="svg-1" width="27" height="243" viewBox="0 0 27 243" fill="currentColor" xmlns="http://www.w3.org/2000/svg"  ><line x1="0.5" y1="-2.18557e-08" x2="0.500011" y2="243" stroke="#003399"  ></line><path d="M6.748 194.302C6.748 196.93 8.17 198.316 9.934 198.316C11.806 198.316 12.472 196.84 12.976 195.508C13.372 194.446 13.642 193.456 14.38 193.456C14.956 193.456 15.352 193.888 15.352 194.788C15.352 195.544 14.992 196.246 14.488 196.966L16.09 198.154C16.72 197.308 17.332 196.192 17.332 194.716C17.332 192.448 16.054 190.972 14.236 190.972C12.562 190.972 11.788 192.448 11.302 193.726C10.888 194.788 10.546 195.832 9.79 195.832C9.16 195.832 8.728 195.382 8.728 194.374C8.728 193.438 9.124 192.574 9.826 191.674L8.17 190.468C7.342 191.458 6.748 192.952 6.748 194.302ZM6.748 204.618C6.748 205.734 7.126 206.958 7.972 207.912L9.718 206.868C9.25 206.31 8.908 205.626 8.908 204.906C8.908 203.448 10.132 202.404 12.022 202.404C13.93 202.404 15.172 203.448 15.172 204.978C15.172 205.554 14.938 206.022 14.506 206.526L16.216 207.786C16.846 207.048 17.332 206.094 17.332 204.852C17.332 202.116 15.388 199.704 12.022 199.704C8.692 199.704 6.748 201.828 6.748 204.618ZM7 209.826L7 212.454L13.012 212.454C14.47 213.03 14.992 213.984 14.992 214.776C14.992 215.19 14.938 215.478 14.83 215.82L17.116 216.288C17.242 215.982 17.332 215.658 17.332 215.1C17.332 214.056 16.612 212.976 15.298 212.238L15.298 212.166L17.08 211.986L17.08 209.826L7 209.826ZM6.748 221.667C6.748 224.187 8.692 226.509 12.022 226.509C15.388 226.509 17.332 224.187 17.332 221.667C17.332 219.147 15.388 216.825 12.022 216.825C8.692 216.825 6.748 219.147 6.748 221.667ZM8.908 221.667C8.908 220.299 10.132 219.525 12.022 219.525C13.93 219.525 15.172 220.299 15.172 221.667C15.172 223.035 13.93 223.809 12.022 223.809C10.132 223.809 8.908 223.035 8.908 221.667ZM6.748 231.207C6.748 231.819 6.856 232.269 6.982 232.575L8.944 232.251C8.908 232.071 8.908 231.999 8.908 231.891C8.908 231.639 9.106 231.351 9.7 231.351L21.364 231.351L21.364 228.723L9.826 228.723C7.954 228.723 6.748 229.371 6.748 231.207ZM6.748 236.885C6.748 237.497 6.856 237.947 6.982 238.253L8.944 237.929C8.908 237.749 8.908 237.677 8.908 237.569C8.908 237.317 9.106 237.029 9.7 237.029L21.364 237.029L21.364 234.401L9.826 234.401C7.954 234.401 6.748 235.049 6.748 236.885Z" fill="#003399"  ></path></svg>
+            <div class="schedule-2">
+                <div class="topics">
+                    <h2 class="topics-en">NEWS & Topics</h2>
+                    <h2 class="topics-ch">最新消息</h2>
+                </div>
+                <div class="date-0701">
+                    <h1>2024.07.01</h1>
+                    <a href="" class="schedule-content">注意：招商倒數𝟱天⏰⚡️抓緊今年在Meet大南方展出的機會，趕快至 𝙈𝙚𝙚𝙩 𝙊𝙣𝙡𝙞𝙣𝙚 提交報名表！</a>
+                </div>
+                <div class="date-0611">
+                    <h1>2024.06.11</h1>
+                    <a href="" class="schedule-content">超過𝟭𝟬𝟬家新創生態夥伴✨確✨定✨加✨入❗️參展報名即將截止收件，請把握時間提交資料</a>
+                </div>
+                <div class="date-0527">
+                    <h1>2024.05.27</h1>
+                    <a href="" class="schedule-content">𝙁𝙄𝙉𝘼𝙇 𝘾𝘼𝙇𝙇 𝙛𝙤𝙧 𝙚𝙖𝙧𝙡𝙮 𝙗𝙞𝙧𝙙 .ᐟ 參展早鳥最後機會 🙋🏻‍♀️ 特別延長加開五天，至5/31止</a>
+                </div>
+                <div class="scroll-BTN">
+                    <a href="#" class="Base1"  ><svg class="svg-2" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"  ><path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"  ></path></svg></a>
+                    <a class="Base2" href="" alt=""><svg class="svg-3" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"  ><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"  ></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="descript">
+        <div class="descript-1"> 
+            <img class="bird" src="/assets/image/bird.png" alt="">
+            <div class="bubble"></div>
+            <div class="descript-text" >
+                <p class="descript-text-1"> 今年，我們希望繼續吹動創業的風，繼續激發創新的火花，塑造新一代的創業家精神，並拓展他們的視野至國際舞台。</p>
+                <h2 class="descript-text-2"> 在這個創新與創業的交匯之處，鼓舞創業家們「<span class="text-pink">定錨</span>」也「 <span class="text-pink">啟航</span>」；成功的故事將被流傳，創新的故事將被書寫，新一代的產業將就此發揚！ </h2>
+            </div>
+        </div>
+     </div>
+     <div class="slidebg">
+        <div class="picture">
+            <img class="picture-1" src="/assets/image/s1-1.jpg" alt="">
+            <div class="btn3">
+                <i class="fa-solid fa-chevron-left my-style"></i>
+            </div>
+            <div class="btn4">
+                <i class="fa-solid fa-chevron-right my-style"></i>
+            </div>
+        </div>
+     </div>
+     <div class="media">
+        <div class="data">
+            <div class="text">
+                <span class="text-1">Meet大南方</span>
+                <span class="text-2">2021-2023 成果數據</span>
+            </div>
+            <div class="data-box">
+                <div class="box">
+                    <span >觀展人次</span>
+                    <h2>30,000+</h2>
+                </div>
+                <div class="box">
+                    <span >講者</span>
+                    <h2>120+</h2>
+                </div>
+                <div class="box">
+                    <span >海內外新創家數</span>
+                    <h2>770+</h2>
+                </div>
+                <div class="box">
+                    <span >合作夥伴</span>
+                    <h2>100+</h2>
+                </div>
+                <div class="box">
+                    <span >政府.企業.加速器</span>
+                    <h2>40+</h2>
+                </div>
+                <div class="box">
+                    <span >媒合組數</span>
+                    <h2>970+</h2>
+                </div>
+            </div>
+        </div>
+        <div class="video-box">
+            <iframe class="video" src="https://www.youtube.com/embed/XP5VjnBPE_M?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=XP5VjnBPE_M" title="2023大南方"></iframe>
+        </div>
+     </div>
+     <div class="index-map">
+        <div class="index-map-1">
+            <div class="index-box">
+                <div class="index-1">
+                    <H2>2024 Meet Greater South<br><span>亞灣新創大南方</span><br> 8/23 Fri. __ 8/24 Sat.</H2>
+                    <div class="calendarBTN">
+                        <a  href="" alt=""><svg class="" width="20px" fill="currentColor" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5v1c0 .276.244.5.545.5h10.91c.3 0 .545-.224.545-.5v-1c0-.276-.244-.5-.546-.5H2.545c-.3 0-.545.224-.545.5zm6.5 5a.5.5 0 0 0-1 0V10H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V11H10a.5.5 0 0 0 0-1H8.5V8.5z"></path></svg></a>
+                    </div>
+                </div>
+                <div class="index-box-2">
+                    <span class="Visit-time" >Visit time</span>參觀時間<br> 09:30-17:00<br><span class="time-limit" >每日16:30為最後入場時間</span>
+                </div>
+                <div class="index-box-3">
+                    <h4 class="index-2" >高雄展覽館  北館</h4>
+                    <h5 class="index-3" >高雄市前鎮區成功二路39號</h5>
+                    <a href="https://www.google.com/maps/dir//%E9%AB%98%E9%9B%84%E5%B1%95%E8%A6%BD%E9%A4%A8+806%E9%AB%98%E9%9B%84%E5%B8%82%E5%89%8D%E9%8E%AE%E5%8D%80%E6%88%90%E5%8A%9F%E4%BA%8C%E8%B7%AF39%E8%99%9F/@22.607861,120.299306,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x346e03786848ef81:0x758740dc67754dd1!2m2!1d120.299306!2d22.607861"   class="google-map-link" ><i class="fa-solid fa-angles-right"></i> 點我開啟導航</a>
+                </div>
+            </div>
+            <div class="map">
+                <iframe class="map-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.230638147001!2d120.299306!3d22.607861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e03786848ef81%3A0x758740dc67754dd1!2zODA26auY6ZuE5biC5YmN6Y6u5Y2A5oiQ5Yqf5LqM6LevMznomZ_pq5jpm4TlsZXopr3ppKg!5e0!3m2!1szh-TW!2stw!4v1652435824520!5m2!1szh-TW!2stw" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border: 0px;">
+                </iframe>
+            </div>
+        </div>
+     </div>
+     <footer>
+        <div class="container"  >
+            <div class="footer-box"  >
+                <div class="footer-span-1"  >
+                    Bussiness Next Media Corp.
+                </div>
+                <div class="footer-media-box1">
+                    <ul class="box1">
+                        <span class="box-text">媒體</span>
+                        <li>
+                            <a href="" title="數位時代">數位時代</a>
+                        </li>
+                        <li>
+                            <a href="" title="經理人">經理人</a>
+                        </li>
+                        <li>
+                            <a href="" title="Shopping Design">Shopping Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-media-box2"  >
+                    <ul class="box2">
+                        <span class="box-text">品牌社群</span>
+                        <li>
+                            <a href="" title="Meet 創業小聚">Meet 創業小聚</a>
+                        </li>
+                        <li>
+                            <a href="" title="FC 未來商務"  >FC 未來商務</a>
+                        </li>
+                        <li>
+                            <a href="" title="WEB3+">WEB3+</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-media-box3">
+                    <ul class="box3">
+                        <span class="box-text">展會</span>
+                        <li class="li-1">
+                            <span>Meet Hualien<a href="" title="Meet Hualien 2023" >｜2023</a></span>
+                        </li>
+                        <li class="li-2">
+                            <a href="" title="Meet Greater South"><span>Meet Greater South</span></a>
+                            <ul class="years-1"  >
+                                <li><a href="" title="2023">2023</a>｜</li>
+                                <li><a href="" title="2022">2022</a>｜</li>
+                                <li><a href="" title="2021">2021</a>｜</li>
+                            </ul>
+                        </li>
+                        <li class="li-3">
+                            <a href="" title="Meet Taipei"><span>Meet Taipei 創新創業嘉年華</span></a>
+                            <ul class="years-2">
+                                <li><a href="">2023</a>｜</li>
+                                <li><a href="">2022</a>｜</li>
+                                <li><a href="">2021</a>｜</li>
+                                <li><a href="">2020</a>｜</li>
+                                <li><a href="">2019</a>｜</li>
+                                <li><a href="">2018</a>｜</li>
+                                <li><a href="">2017</a>｜</li>
+                                <li><a href="">2016</a>｜</li>
+                                <li><a href="">2015</a>｜</li>
+                                <li><a href="">2014</a>｜</li>
+                            </ul>
+                        </li>
+                        <li class="li-4">
+                            <a href="" title="Future Commerce">Future Commerce</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-media-box4">
+                    <ul class="box4" >
+                        <span class="box-text">學院</span>
+                        <li>
+                            <a href="" title="數位行銷學院">數位行銷學院</a>
+                        </li>
+                        <li>
+                            <a href="" title="經理人商學院">經理人商學院</a>
+                        </li>
+                        <li>
+                            <a href="" title="風格經濟學院">風格經濟學院</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="socialmedia-box">
+                    <div class="socialmedia-text">
+                        <div class="text-1">關於創業小聚</div>
+                        <div class="text-2">By Startups, For Startups.</div>
+                    </div>
+                    <div class="icon-box">
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 40 40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <path class="cls-1" d="M38,17.53h0L22.47,2a3.5,3.5,0,0,0-4.94,0L2,17.52H2a3.5,3.5,0,0,0,0,4.94,3.42,3.42,0,0,0,2.32,1h.73V34.91A4.09,4.09,0,0,0,9.16,39h6.07a1.11,1.11,0,0,0,1.11-1.11V28.94a1.87,1.87,0,0,1,1.87-1.86h3.58a1.87,1.87,0,0,1,1.87,1.86v9A1.11,1.11,0,0,0,24.77,39h6.07a4.09,4.09,0,0,0,4.09-4.09V23.5h.57a3.45,3.45,0,0,0,2.48-1A3.5,3.5,0,0,0,38,17.53Z"></path>
+                            </svg>
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 40 40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <path class="cls-1" d="M25.52,13c-.74,0-1.48.27-1.48.89v6.46L21,14.52C20.24,13.14,19.84,13,18.78,13c-.74,0-1.48.29-1.48.91V26c0,.61.74.91,1.48.91s1.48-.3,1.48-.91V19.55l3.61,6.57a1.65,1.65,0,0,0,1.65.8c.74,0,1.48-.3,1.48-.91V13.93C27,13.31,26.26,13,25.52,13Z"></path><path class="cls-1" d="M15.11,15.62c.57,0,.9-.6.9-1.31S15.74,13,15.11,13H8.35c-.64,0-1.29.31-1.29.91V26c0,.61.65.91,1.29.91h6.76c.63,0,.9-.66.9-1.27s-.33-1.31-.9-1.31H10V21.11h2.85a1,1,0,0,0,.9-1.12c0-.61-.33-1.16-.9-1.16H10V15.62Z"></path><path class="cls-1" d="M33.52,20,38.86,8.76a1.51,1.51,0,0,0-.09-1.43,1.49,1.49,0,0,0-1.25-.69h-35A1.49,1.49,0,0,0,1,8.13V31.87a1.49,1.49,0,0,0,1.48,1.49h35a1.49,1.49,0,0,0,1.25-.69,1.51,1.51,0,0,0,.09-1.43ZM4,30.39V9.61h31.2l-4.64,9.75a1.51,1.51,0,0,0,0,1.28l4.64,9.75Z"></path>
+                            </svg>
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 36 32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M33 13.3903C33 6.00772 25.5989 0 16.5 0C7.40113 0 0 6.00772 0 13.3903C0 20.0098 5.87023 25.5541 13.7997 26.6014C14.3373 26.7173 15.068 26.9552 15.2534 27.4156C15.4186 27.8326 15.3615 28.4861 15.3059 28.9063C15.3059 28.9063 15.1128 30.0711 15.0711 30.3198L15.0649 30.3548C14.9861 30.8002 14.7859 31.9313 16.5 31.2096C18.2611 30.4681 26.0021 25.6143 29.464 21.6318C31.8553 19.001 33 16.3455 33 13.3903ZM27.5113 17.654C27.5932 17.654 27.6718 17.6215 27.7298 17.5635C27.7877 17.5056 27.8203 17.427 27.8203 17.345V16.1756C27.8203 16.0937 27.7877 16.0151 27.7298 15.9572C27.6718 15.8992 27.5932 15.8667 27.5113 15.8667H24.3614V14.6509H27.5113C27.5932 14.6509 27.6718 14.6184 27.7298 14.5604C27.7877 14.5025 27.8203 14.4239 27.8203 14.342V13.171C27.8203 13.0891 27.7877 13.0105 27.7298 12.9525C27.6718 12.8946 27.5932 12.862 27.5113 12.862H24.3614V11.6463H27.5113C27.5932 11.6463 27.6718 11.6137 27.7298 11.5558C27.7877 11.4978 27.8203 11.4193 27.8203 11.3373V10.1664C27.8203 10.0844 27.7877 10.0058 27.7298 9.9479C27.6718 9.88996 27.5932 9.8574 27.5113 9.8574H22.8769C22.7949 9.8574 22.7164 9.88996 22.6584 9.9479C22.6005 10.0058 22.5679 10.0844 22.5679 10.1664V17.3327C22.5679 17.4146 22.6005 17.4932 22.6584 17.5511C22.7164 17.6091 22.7949 17.6416 22.8769 17.6416H27.5113V17.654ZM10.5825 17.5635C10.5245 17.6214 10.4459 17.654 10.364 17.654L10.3686 17.6416H5.73424C5.6523 17.6416 5.57371 17.6091 5.51577 17.5511C5.45783 17.4932 5.42528 17.4146 5.42528 17.3327V10.1509C5.42528 10.069 5.45783 9.99037 5.51577 9.93243C5.57371 9.87448 5.6523 9.84194 5.73424 9.84194H6.90365C6.9856 9.84194 7.06418 9.87448 7.12212 9.93243C7.18006 9.99037 7.21261 10.069 7.21261 10.1509V15.8667H10.364C10.4459 15.8667 10.5245 15.8992 10.5825 15.9571C10.6404 16.0151 10.673 16.0937 10.673 16.1756V17.345C10.673 17.427 10.6404 17.5056 10.5825 17.5635ZM13.1539 9.82189H11.9845C11.8104 9.82189 11.6693 9.96298 11.6693 10.137V17.3373C11.6693 17.5114 11.8104 17.6525 11.9845 17.6525H13.1539C13.3279 17.6525 13.469 17.5114 13.469 17.3373V10.137C13.469 9.96298 13.3279 9.82189 13.1539 9.82189ZM19.951 9.82189H21.1204C21.1617 9.82168 21.2025 9.82971 21.2406 9.84553C21.2787 9.86135 21.3132 9.88463 21.3421 9.914C21.3711 9.94337 21.3938 9.97823 21.4091 10.0165C21.4243 10.0548 21.4318 10.0958 21.4309 10.137V17.3188C21.4309 17.4007 21.3984 17.4793 21.3405 17.5373C21.2825 17.5952 21.2039 17.6278 21.122 17.6278H19.9588C19.9306 17.6274 19.9026 17.6238 19.8753 17.6169H19.8522H19.8429H19.8274L19.812 17.6092H19.8027L19.7826 17.5969C19.7507 17.5759 19.723 17.5492 19.7008 17.5181L16.4026 13.0629V17.3837C16.4026 17.4656 16.3701 17.5442 16.3121 17.6021C16.2542 17.6601 16.1756 17.6926 16.0937 17.6926H14.9227C14.8408 17.6926 14.7622 17.6601 14.7042 17.6021C14.6463 17.5442 14.6137 17.4656 14.6137 17.3837V10.1818C14.6137 10.0999 14.6463 10.0213 14.7042 9.96336C14.7622 9.90542 14.8408 9.87286 14.9227 9.87286H16.1153H16.1323H16.1446H16.1632H16.1755H16.1941H16.2049H16.2234H16.2327L16.2497 9.88213H16.2605L16.276 9.89449H16.2852L16.3022 9.9084L16.3207 9.92694C16.3307 9.93673 16.3395 9.9476 16.347 9.95937L19.6421 14.4084V10.1309C19.6421 10.0489 19.6746 9.97032 19.7326 9.91238C19.7905 9.85444 19.8691 9.82189 19.951 9.82189Z"></path>
+                            </svg>
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                            </svg> 
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 40 40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M36,40H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H36a4,4,0,0,1,4,4V36A4,4,0,0,1,36,40ZM25.554,19.947c3.234,0,3.234,3.065,3.234,5.3V35H35V24c0-3.191-.421-5.284-1.366-6.784-1.163-1.848-3.154-2.746-6.086-2.746A7.14,7.14,0,0,0,23.782,15.5,5.927,5.927,0,0,0,21.663,17.7h-.086V14.971H15.611V35h6.213V25.083C21.824,22.543,22.267,19.947,25.554,19.947ZM5.5,14.971V35h6.22V14.971ZM8.6,5a3.619,3.619,0,1,0,3.6,3.6A3.606,3.606,0,0,0,8.6,5Z"></path>
+                            </svg>                
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 24 24" aria-label="X" role="img">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
+                            </svg>
+                        </a>
+                        <a class="social_icon" href="">
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 40 40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                            <g transform="translate(1399 -5400)">
+                            <rect data-name="Rectangle 799" width="40" height="40" transform="translate(-1399 5400)" fill="none"></rect>
+                            <path data-name="Icon awesome-podcast" d="M19.848,36.261C19.467,37.671,18.025,38,16.625,38s-2.842-.329-3.223-1.739A54.081,54.081,0,0,1,11.875,26.4c0-2.609,2.311-3.247,4.75-3.247s4.75.638,4.75,3.247A54.134,54.134,0,0,1,19.848,36.261ZM11.642,21.416a7.125,7.125,0,1,1,9.965,0,.446.446,0,0,0,.047.682A4.938,4.938,0,0,1,23.23,23.98a.442.442,0,0,0,.7.14,10.687,10.687,0,1,0-14.613,0,.442.442,0,0,0,.7-.14A4.937,4.937,0,0,1,11.6,22.1a.446.446,0,0,0,.047-.682ZM16.625,0A16.63,16.63,0,0,0,9.332,31.573a.445.445,0,0,0,.633-.468c-.177-1.151-.322-2.3-.4-3.291a.447.447,0,0,0-.2-.335A13.062,13.062,0,1,1,23.7,27.6c-.074,1.042-.228,2.27-.417,3.505a.445.445,0,0,0,.633.468A16.63,16.63,0,0,0,16.625,0Zm0,11.875a4.75,4.75,0,1,0,4.75,4.75A4.75,4.75,0,0,0,16.625,11.875Z" transform="translate(-1396 5402)"></path>
+                            </g>
+                        </svg> 
+                    </a>
+                        <a class="social_icon" href="https://www.youtube.com/channel/UCbxyP0aDTNBmG4v14wx1YDQ"  >
+                            <svg class=""   width="30px" fill="currentColor" viewBox="0 0 40 40" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" xmlns="http://www.w3.org/2000/svg">
+                            <g transform="translate(1318 -5400)">
+                            <rect data-name="Rectangle 800" width="40" height="40" transform="translate(-1318 5400)" fill="none"></rect>
+                            <path data-name="Icon ionic-logo-youtube" d="M37.753,10.795A5.77,5.77,0,0,0,32.26,4.767C28.148,4.574,23.954,4.5,19.671,4.5H18.335c-4.276,0-8.477.074-12.589.267A5.783,5.783,0,0,0,.26,10.809C.074,13.452-.007,16.095,0,18.737s.074,5.285.252,7.935a5.79,5.79,0,0,0,5.486,6.05c4.32.2,8.752.289,13.257.282q6.77.022,13.257-.282a5.791,5.791,0,0,0,5.493-6.05c.178-2.65.26-5.293.252-7.943Q38.02,14.766,37.753,10.795ZM15.365,26.019V11.433l10.763,7.289Z" transform="translate(-1317 5401.5)"></path>
+                            </g>
+                        </svg>
+                    </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="notice"  >
+                        <span class="right">*主辦單位保留議程變動的權利。</span>
+                        <p >
+                            <span class="news">新聞稿 / 商業合作
+                                <a href="">meetxxxx.com.tw</a>
+                            </span>
+                            <span class="phonecall"  >｜觀展洽詢
+                                <a href="tel:02-88888888＃000">02-88888888＃000 </a>葉先生
+                                <a href="tel:02-88888888＃000">＃000 </a>葉先生
+                            </span> ｜
+                            <a href="">假的服務條款與隱私權政策</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- fin -->
+    </div></footer>
+</body>
+</html>
